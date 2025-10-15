@@ -1,1 +1,0 @@
-# technify-practice
