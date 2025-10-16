@@ -5,38 +5,46 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+body {
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: #7eccf047;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+div {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 400px;
+  margin: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: calc(100% - 22px);
+  margin-bottom: 10px;
 }
 
-.card {
-  padding: 2em;
+h1 {
+  color: #333;
 }
 
-.read-the-docs {
-  color: #888;
+p {
+  margin: 1px 0;
+  color: #555;
 }
+
+.gameTracker {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: white;
+  padding: 10px 15px;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+}
+
