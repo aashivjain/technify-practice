@@ -1,16 +1,28 @@
-# React + Vite
+# 🎯 Guess the Number Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React game where the user tries to guess a number between 1 and 100 within a limited number of attempts.
 
-Currently, two official plugins are available:
+## How to Play
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Enter a number between *1 and 100 in the input field.
+- Click **"Submit Guess"** or press **Enter**.
+- You have 6 attempts to guess the correct number.
+- The app will tell you if your guess is too high or too low.
+- Your **win/loss stats** are tracked in the top-left corner.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Built with React + Vite*
+- Uses React Hooks like use state
+- Dynamic feedback based on your input
+- Tracks **games won/lost**
+- Allows reset of stats
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+npm install
+npm run dev
+```
